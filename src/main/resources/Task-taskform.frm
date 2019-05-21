@@ -1,0 +1,1 @@
+{"id":"41855b9f-b101-4f9c-8d2d-de32f26f3a42","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"VVTF.Firefighting","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
