@@ -96,6 +96,7 @@
         <bpmn2:flowNodeRef>_5FD47D19-77BA-437B-9C91-97CC47A5F10F</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_24A1DEE4-ECE9-439B-B9B3-760A936467D8</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_DFC7FA11-7EB2-43FC-9704-4A245CFD3B7D</bpmn2:flowNodeRef>
+        <bpmn2:flowNodeRef>_D60A1E27-089A-4074-A699-C0FAE6927DBD</bpmn2:flowNodeRef>
       </bpmn2:lane>
       <bpmn2:lane id="_ABE2CF23-D365-4133-91DC-731F4EB2A09E" name="ERP System">
         <bpmn2:extensionElements>
