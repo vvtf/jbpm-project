@@ -21,7 +21,7 @@
       <dmn:formalParameter id="_86FF2FC8-20C1-446E-BA03-30E1396994F5" name="position" typeRef="string"/>
       <dmn:literalExpression id="_BF950452-45F9-48F4-BAC4-BA951519B1C1">
         <dmn:text>if (requestedIncome/offeredIncome)&lt;=1.05 and position="senior" then true
-else false;</dmn:text>
+else false</dmn:text>
       </dmn:literalExpression>
     </dmn:functionDefinition>
   </dmn:decision>
