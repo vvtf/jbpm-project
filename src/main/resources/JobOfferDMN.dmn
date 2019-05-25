@@ -24,7 +24,7 @@
       <dmn:rule id="_2AD72E73-F0E9-496E-9F36-7E93BFB85476">
         <dmn:description>max 5% plus</dmn:description>
         <dmn:inputEntry id="_6AAF1D55-0CF7-4B83-9859-16A2968FFEEE">
-          <dmn:text>senior</dmn:text>
+          <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_82B68279-D51B-4321-A7FA-A9412C479D99">
           <dmn:text>&lt;= 1.05</dmn:text>
@@ -36,7 +36,7 @@
       <dmn:rule id="_44FEE7E7-E8A8-4BB1-88C2-2389A63963D2">
         <dmn:description>wants too much for senior</dmn:description>
         <dmn:inputEntry id="_C6E152FD-F79D-4FB7-84D7-0A4CC4E6B514">
-          <dmn:text>senior</dmn:text>
+          <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_812F8B3F-E6D8-4F1A-8BF9-197AEDCD27BD">
           <dmn:text>*</dmn:text>
@@ -48,7 +48,7 @@
       <dmn:rule id="_CF302771-B692-4CA0-8887-1E46B51B6305">
         <dmn:description>max 3% plus</dmn:description>
         <dmn:inputEntry id="_992256EF-2BE3-4966-AC84-FCBFD4BA26CC">
-          <dmn:text>inter</dmn:text>
+          <dmn:text>"inter"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CA0025E7-E35D-4467-9AE2-97C306F4F075">
           <dmn:text>&lt;= 1.03</dmn:text>
@@ -60,7 +60,7 @@
       <dmn:rule id="_ED22C00A-5DC5-4724-B201-66ADA4DB5243">
         <dmn:description>wants too much for intermediate</dmn:description>
         <dmn:inputEntry id="_E7A0F394-912C-481F-A47C-E66FF9DEC700">
-          <dmn:text>inter</dmn:text>
+          <dmn:text>"inter"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_D731FBF8-DBC9-444B-B66B-466D8F7C8857">
           <dmn:text>*</dmn:text>
@@ -72,7 +72,7 @@
       <dmn:rule id="_24250E9F-16AE-4E39-BDF6-58ED34BBCD76">
         <dmn:description>max 1% plus</dmn:description>
         <dmn:inputEntry id="_DCE547A5-ED53-4C76-9C62-6C2719A82C86">
-          <dmn:text>junior</dmn:text>
+          <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_77EF0D63-7826-4BFB-9211-B21719EE068E">
           <dmn:text>&lt;= 1.01</dmn:text>
@@ -84,13 +84,13 @@
       <dmn:rule id="_FBA4FEB2-514E-4F57-B3AC-6826FE33C4EA">
         <dmn:description>wants too much for junior</dmn:description>
         <dmn:inputEntry id="_E779584A-D4C3-4DC7-B6D3-47E66A72CE9C">
-          <dmn:text>junior</dmn:text>
+          <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B386A019-9EC4-4E7E-8AB9-3DE95EB7C951">
           <dmn:text>*</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_CBB087A4-7879-4C1C-BF21-2190BB7DE12F">
-          <dmn:text>fakse</dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
@@ -114,15 +114,6 @@
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_6FAA2810-31FF-4227-9079-1CA7537AC31B" dmnElementRef="_6FAA2810-31FF-4227-9079-1CA7537AC31B" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="374" y="417" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_BC720AE6-D1D6-4C49-A290-7A7280CE08D2" dmnElementRef="_BC720AE6-D1D6-4C49-A290-7A7280CE08D2" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -130,6 +121,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="479" y="319" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_6FAA2810-31FF-4227-9079-1CA7537AC31B" dmnElementRef="_6FAA2810-31FF-4227-9079-1CA7537AC31B" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="374" y="417" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_3EBB5A7A-FC69-4458-A856-E243150E3DC2" dmnElementRef="_3EBB5A7A-FC69-4458-A856-E243150E3DC2" isCollapsed="false">
