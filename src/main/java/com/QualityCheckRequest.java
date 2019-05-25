@@ -6,12 +6,47 @@ package com;
 
 public class QualityCheckRequest implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public QualityCheckRequest() {
-    }
+	@org.kie.api.definition.type.Label(value = "Vehicle serial no.")
+	private java.lang.Integer serialNumber;
+	@org.kie.api.definition.type.Label(value = "Vehicle manufacturer")
+	private java.lang.String manufacturer;
+	@org.kie.api.definition.type.Label(value = "Vehicle model")
+	private java.lang.String model;
 
+	public QualityCheckRequest() {
+	}
 
+	public java.lang.Integer getSerialNumber() {
+		return this.serialNumber;
+	}
 
+	public void setSerialNumber(java.lang.Integer serialNumber) {
+		this.serialNumber = serialNumber;
+	}
+
+	public java.lang.String getManufacturer() {
+		return this.manufacturer;
+	}
+
+	public void setManufacturer(java.lang.String manufacturer) {
+		this.manufacturer = manufacturer;
+	}
+
+	public java.lang.String getModel() {
+		return this.model;
+	}
+
+	public void setModel(java.lang.String model) {
+		this.model = model;
+	}
+
+	public QualityCheckRequest(java.lang.Integer serialNumber,
+			java.lang.String manufacturer, java.lang.String model) {
+		this.serialNumber = serialNumber;
+		this.manufacturer = manufacturer;
+		this.model = model;
+	}
 
 }
