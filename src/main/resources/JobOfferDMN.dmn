@@ -4,8 +4,8 @@
   <dmn:inputData id="_9215EDAB-5CF1-417E-9953-A168DB1A5F91" name="requestedIncome">
     <dmn:variable id="_3EFE6D2C-E177-4936-8271-50FE80D11DA8" name="requestedIncome" typeRef="number"/>
   </dmn:inputData>
-  <dmn:decision id="_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" name="Decision-1">
-    <dmn:variable id="_294C0EEB-ED2D-438A-9A54-1647C049D45C" name="Decision-1" typeRef="boolean"/>
+  <dmn:decision id="_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" name="Hired">
+    <dmn:variable id="_294C0EEB-ED2D-438A-9A54-1647C049D45C" name="Hired" typeRef="boolean"/>
     <dmn:informationRequirement id="_F22E0548-A550-4588-9E94-8D88A8C80327">
       <dmn:requiredInput href="#_3EBB5A7A-FC69-4458-A856-E243150E3DC2"/>
     </dmn:informationRequirement>
