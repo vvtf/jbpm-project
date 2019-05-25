@@ -27,7 +27,7 @@
           <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_82B68279-D51B-4321-A7FA-A9412C479D99">
-          <dmn:text>&lt;= 1.05</dmn:text>
+          <dmn:text>&lt;=1.05</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_43884401-D48B-4CDD-956D-3A5DC86A5843">
           <dmn:text>true</dmn:text>
@@ -39,7 +39,7 @@
           <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_812F8B3F-E6D8-4F1A-8BF9-197AEDCD27BD">
-          <dmn:text>*</dmn:text>
+          <dmn:text>&gt;1.05</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_C8C79349-1E2C-4F98-841A-C9E4EE114122">
           <dmn:text>false</dmn:text>
@@ -51,7 +51,7 @@
           <dmn:text>"inter"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CA0025E7-E35D-4467-9AE2-97C306F4F075">
-          <dmn:text>&lt;= 1.03</dmn:text>
+          <dmn:text>&lt;=1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_FCEFD67C-9B9D-466E-BC4F-21C56FE7E99F">
           <dmn:text>true</dmn:text>
@@ -63,7 +63,7 @@
           <dmn:text>"inter"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_D731FBF8-DBC9-444B-B66B-466D8F7C8857">
-          <dmn:text>*</dmn:text>
+          <dmn:text>&gt;1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_47B7FB78-C111-4FA9-98E1-23443CE05111">
           <dmn:text>false</dmn:text>
@@ -75,7 +75,7 @@
           <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_77EF0D63-7826-4BFB-9211-B21719EE068E">
-          <dmn:text>&lt;= 1.01</dmn:text>
+          <dmn:text>&lt;=1.01</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_F06BF0DB-1990-468D-97E5-608790C8712E">
           <dmn:text>true</dmn:text>
@@ -87,7 +87,7 @@
           <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B386A019-9EC4-4E7E-8AB9-3DE95EB7C951">
-          <dmn:text>*</dmn:text>
+          <dmn:text>&gt;1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_CBB087A4-7879-4C1C-BF21-2190BB7DE12F">
           <dmn:text>false</dmn:text>
