@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/_528D478F-03C5-4698-91C2-68D5148019E0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_F4715AB7-A3EB-43FC-BFD7-ED04DDF3BB64" name="JobOfferDMN" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_528D478F-03C5-4698-91C2-68D5148019E0">
   <dmn:extensionElements/>
-  <dmn:decision id="_BC720AE6-D1D6-4C49-A290-7A7280CE08D2" name="Hired">
-    <dmn:variable id="_E9D7775F-6A08-4AD8-A73D-BCA3D402B0A6" name="Hired" typeRef="boolean"/>
+  <dmn:decision id="_BC720AE6-D1D6-4C49-A290-7A7280CE08D2" name="shouldHire">
+    <dmn:variable id="_E9D7775F-6A08-4AD8-A73D-BCA3D402B0A6" name="shouldHire" typeRef="boolean"/>
     <dmn:informationRequirement id="_559C22CC-D9FA-414C-8D15-BE065DFDA1C7">
       <dmn:requiredInput href="#_3EBB5A7A-FC69-4458-A856-E243150E3DC2"/>
     </dmn:informationRequirement>
