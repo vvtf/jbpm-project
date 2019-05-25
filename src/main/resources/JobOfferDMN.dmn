@@ -9,7 +9,7 @@
     <dmn:informationRequirement id="_88478B81-10F0-4BFC-BB32-8ABADFB9D6E3">
       <dmn:requiredInput href="#_6FAA2810-31FF-4227-9079-1CA7537AC31B"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_DA30F200-2B71-4D84-9B47-4A90C9B17F87" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_DA30F200-2B71-4D84-9B47-4A90C9B17F87" hitPolicy="ANY" preferredOrientation="Rule-as-Row">
       <dmn:input id="_59F51163-8F8E-4A76-A68F-07401D9DF8C7">
         <dmn:inputExpression id="_D9993C2B-7D63-40FF-8BFA-5C25A85D65DD" typeRef="string">
           <dmn:text>position</dmn:text>
