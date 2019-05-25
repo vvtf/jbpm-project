@@ -16,11 +16,12 @@
       <dmn:requiredInput href="#_6FAA2810-31FF-4227-9079-1CA7537AC31B"/>
     </dmn:informationRequirement>
     <dmn:functionDefinition id="_023ADEDA-5B46-482F-8D69-D8C2B95EE358" kind="FEEL">
-      <dmn:formalParameter id="_26E8DC94-C15A-402A-9EF9-F77AEA588489" name="requested" typeRef="number"/>
-      <dmn:formalParameter id="_255F0C37-D506-46AB-B33D-6E6A38A1649A" name="offered" typeRef="number"/>
+      <dmn:formalParameter id="_26E8DC94-C15A-402A-9EF9-F77AEA588489" name="requestedIncome" typeRef="number"/>
+      <dmn:formalParameter id="_255F0C37-D506-46AB-B33D-6E6A38A1649A" name="offeredIncome" typeRef="number"/>
       <dmn:formalParameter id="_86FF2FC8-20C1-446E-BA03-30E1396994F5" name="position" typeRef="string"/>
       <dmn:literalExpression id="_BF950452-45F9-48F4-BAC4-BA951519B1C1">
-        <dmn:text></dmn:text>
+        <dmn:text>if (requestedIncome/offeredIncome)&lt;=1.05 and position="senior" then true
+else false</dmn:text>
       </dmn:literalExpression>
     </dmn:functionDefinition>
   </dmn:decision>
@@ -36,22 +37,13 @@
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_023ADEDA-5B46-482F-8D69-D8C2B95EE358">
             <kie:width>50.0</kie:width>
-            <kie:width>150.0</kie:width>
+            <kie:width>1103.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_BF950452-45F9-48F4-BAC4-BA951519B1C1">
-            <kie:width>150.0</kie:width>
+            <kie:width>1103.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" dmnElementRef="_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="570" y="361" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_9215EDAB-5CF1-417E-9953-A168DB1A5F91" dmnElementRef="_9215EDAB-5CF1-417E-9953-A168DB1A5F91" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -59,6 +51,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="361" y="361" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" dmnElementRef="_C8672AB5-C04D-4F1B-89A1-F4D6869DD3A6" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="570" y="361" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_6FAA2810-31FF-4227-9079-1CA7537AC31B" dmnElementRef="_6FAA2810-31FF-4227-9079-1CA7537AC31B" isCollapsed="false">
