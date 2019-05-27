@@ -10,8 +10,8 @@ public class QualityCheckResult implements java.io.Serializable {
 
 	@org.kie.api.definition.type.Label("Vehicle info")
 	private com.QualityCheckRequest request;
-	@org.kie.api.definition.type.Label(value = "Interior Defects")
-	private com.QualityDefects interiorDefects;
+	@org.kie.api.definition.type.Label(value = "Found defects")
+	private java.util.List<com.QualityDefect> defects;
 
 	public QualityCheckResult() {
 	}
@@ -24,18 +24,18 @@ public class QualityCheckResult implements java.io.Serializable {
 		this.request = request;
 	}
 
-	public com.QualityDefects getInteriorDefects() {
-		return this.interiorDefects;
+	public java.util.List<com.QualityDefect> getDefects() {
+		return this.defects;
 	}
 
-	public void setInteriorDefects(com.QualityDefects interiorDefects) {
-		this.interiorDefects = interiorDefects;
+	public void setDefects(java.util.List<com.QualityDefect> defects) {
+		this.defects = defects;
 	}
 
 	public QualityCheckResult(com.QualityCheckRequest request,
-			com.QualityDefects interiorDefects) {
+			java.util.List<com.QualityDefect> defects) {
 		this.request = request;
-		this.interiorDefects = interiorDefects;
+		this.defects = defects;
 	}
 
 }
