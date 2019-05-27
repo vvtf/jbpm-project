@@ -6,12 +6,36 @@ package com;
 
 public class QualityCheckResult implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public QualityCheckResult() {
-    }
+	@org.kie.api.definition.type.Label(value = "Vehicle info")
+	private com.QualityCheckRequest request;
+	@org.kie.api.definition.type.Label(value = "Vehicle defects")
+	private java.util.List<com.QualityDefect> defects;
 
+	public QualityCheckResult() {
+	}
 
+	public com.QualityCheckRequest getRequest() {
+		return this.request;
+	}
 
+	public void setRequest(com.QualityCheckRequest request) {
+		this.request = request;
+	}
+
+	public java.util.List<com.QualityDefect> getDefects() {
+		return this.defects;
+	}
+
+	public void setDefects(java.util.List<com.QualityDefect> defects) {
+		this.defects = defects;
+	}
+
+	public QualityCheckResult(com.QualityCheckRequest request,
+			java.util.List<com.QualityDefect> defects) {
+		this.request = request;
+		this.defects = defects;
+	}
 
 }
