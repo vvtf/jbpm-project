@@ -8,12 +8,15 @@ public class QualityDefect implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Part name")
+	@org.kie.api.definition.type.Label("Part name")
 	private java.lang.String carPart;
-	@org.kie.api.definition.type.Label(value = "Part serial number")
+	@org.kie.api.definition.type.Label("Part serial number")
 	private java.lang.Integer serialNumber;
-	@org.kie.api.definition.type.Label(value = "Defect description")
+	@org.kie.api.definition.type.Label("Defect description")
 	private java.lang.String description;
+
+	@org.kie.api.definition.type.Label(value = "Defective?")
+	private java.lang.Boolean defective;
 
 	public QualityDefect() {
 	}
@@ -42,11 +45,21 @@ public class QualityDefect implements java.io.Serializable {
 		this.description = description;
 	}
 
+	public java.lang.Boolean getDefective() {
+		return this.defective;
+	}
+
+	public void setDefective(java.lang.Boolean defective) {
+		this.defective = defective;
+	}
+
 	public QualityDefect(java.lang.String carPart,
-			java.lang.Integer serialNumber, java.lang.String description) {
+			java.lang.Integer serialNumber, java.lang.String description,
+			java.lang.Boolean defective) {
 		this.carPart = carPart;
 		this.serialNumber = serialNumber;
 		this.description = description;
+		this.defective = defective;
 	}
 
 }
