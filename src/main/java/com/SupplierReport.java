@@ -6,12 +6,47 @@ package com;
 
 public class SupplierReport implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public SupplierReport() {
-    }
+	@org.kie.api.definition.type.Label(value = "Supplier name")
+	private java.lang.String name;
+	@org.kie.api.definition.type.Label(value = "Caused losses")
+	private java.lang.Float losses;
+	@org.kie.api.definition.type.Label(value = "Renegotiate?")
+	private java.lang.Boolean renegotiate;
 
+	public SupplierReport() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.Float getLosses() {
+		return this.losses;
+	}
+
+	public void setLosses(java.lang.Float losses) {
+		this.losses = losses;
+	}
+
+	public java.lang.Boolean getRenegotiate() {
+		return this.renegotiate;
+	}
+
+	public void setRenegotiate(java.lang.Boolean renegotiate) {
+		this.renegotiate = renegotiate;
+	}
+
+	public SupplierReport(java.lang.String name, java.lang.Float losses,
+			java.lang.Boolean renegotiate) {
+		this.name = name;
+		this.losses = losses;
+		this.renegotiate = renegotiate;
+	}
 
 }
