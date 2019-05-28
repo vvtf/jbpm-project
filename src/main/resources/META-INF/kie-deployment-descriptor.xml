@@ -14,7 +14,7 @@
             <resolver>mvel</resolver>
             <identifier></identifier>
             <parameters/>
-            <name>webAvailable</name>
+            <name>web_available</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
