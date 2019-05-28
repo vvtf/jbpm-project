@@ -12,9 +12,9 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier></identifier>
+            <identifier>send_statement_request</identifier>
             <parameters/>
-            <name>sendStatementRequest</name>
+            <name>send_statement_request</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
