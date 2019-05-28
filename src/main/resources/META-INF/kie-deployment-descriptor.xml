@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>outageReport</identifier>
+            <identifier>true == true</identifier>
             <parameters/>
             <name>web_available</name>
         </work-item-handler>
