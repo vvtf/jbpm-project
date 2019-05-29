@@ -8,25 +8,18 @@ public class JobOffer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("Job Title")
-	private java.lang.String jobTitle;
 	@org.kie.api.definition.type.Label("Position (junior, intermediate, senior)")
 	private java.lang.String position;
 	@org.kie.api.definition.type.Label("Offered pay")
 	private java.lang.Integer offeredPay;
 
-	@org.kie.api.definition.type.Label(value = "Job description")
+	@org.kie.api.definition.type.Label("Job description")
 	private java.lang.String description;
 
+	@org.kie.api.definition.type.Label(value = "Job Title")
+	private java.lang.String title;
+
 	public JobOffer() {
-	}
-
-	public java.lang.String getJobTitle() {
-		return this.jobTitle;
-	}
-
-	public void setJobTitle(java.lang.String jobTitle) {
-		this.jobTitle = jobTitle;
 	}
 
 	public java.lang.String getPosition() {
@@ -53,12 +46,20 @@ public class JobOffer implements java.io.Serializable {
 		this.description = description;
 	}
 
-	public JobOffer(java.lang.String jobTitle, java.lang.String position,
-			java.lang.Integer offeredPay, java.lang.String description) {
-		this.jobTitle = jobTitle;
+	public java.lang.String getTitle() {
+		return this.title;
+	}
+
+	public void setTitle(java.lang.String title) {
+		this.title = title;
+	}
+
+	public JobOffer(java.lang.String position, java.lang.Integer offeredPay,
+			java.lang.String description, java.lang.String title) {
 		this.position = position;
 		this.offeredPay = offeredPay;
 		this.description = description;
+		this.title = title;
 	}
 
 }
