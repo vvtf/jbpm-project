@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_evyyYIImEemxFOFNrw4eGQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_adBgMIInEemxFOFNrw4eGQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_jobTitleItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_positionItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_offeredPayItem" structureRef="Integer"/>
@@ -77,21 +77,21 @@
   <bpmn2:itemDefinition id="__EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_NotCompletedReassignInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_NotStartedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_NotCompletedNotifyInputXItem" structureRef="Object"/>
+  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_AcceptCharsetInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_AcceptHeaderInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_AuthTypeInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_AuthUrlInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ConnectTimeoutInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputXItem" structureRef="com.JobOffer"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeCharsetInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_HandleResponseErrorsInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_HeadersInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_PasswordInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ReadTimeoutInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ResultClassInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_UsernameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__D8EF5F30-C22A-499F-B972-33497EE01227_ResultOutputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__99EC1408-641B-4603-9F54-FE358612A429_SkippableInputXItem" structureRef="Object"/>
@@ -134,7 +134,7 @@
   <bpmn2:itemDefinition id="__8856CE47-FD87-492A-B250-292C9CF753ED_NotStartedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__8856CE47-FD87-492A-B250-292C9CF753ED_NotCompletedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__8856CE47-FD87-492A-B250-292C9CF753ED_suitableOutputXItem" structureRef="Boolean"/>
-  <bpmn2:message id="_evzZc4ImEemxFOFNrw4eGQ" itemRef="resume_receivedType" name="resume_received"/>
+  <bpmn2:message id="_adBgSYInEemxFOFNrw4eGQ" itemRef="resume_receivedType" name="resume_received"/>
   <bpmn2:process id="VVTF.Hiring" drools:packageName="org.jbpm" drools:version="1.0" drools:adHoc="false" name="Hiring" isExecutable="true">
     <bpmn2:property id="jobTitle" itemSubjectRef="_jobTitleItem" name="jobTitle"/>
     <bpmn2:property id="position" itemSubjectRef="_positionItem" name="position"/>
@@ -146,7 +146,7 @@
     <bpmn2:property id="askingPay" itemSubjectRef="_askingPayItem" name="askingPay"/>
     <bpmn2:property id="jobDescription" itemSubjectRef="_jobDescriptionItem" name="jobDescription"/>
     <bpmn2:property id="jobOffer" itemSubjectRef="_jobOfferItem" name="jobOffer"/>
-    <bpmn2:laneSet id="_evyyYYImEemxFOFNrw4eGQ">
+    <bpmn2:laneSet id="_adBgMYInEemxFOFNrw4eGQ">
       <bpmn2:lane id="_D48ACB4D-3012-47B4-B115-4AD14F1C27A9" name="Lane">
         <bpmn2:extensionElements>
           <drools:metaData name="elementname">
@@ -171,11 +171,11 @@
         <bpmn2:flowNodeRef>_D8EF5F30-C22A-499F-B972-33497EE01227</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_DB402D52-B57B-4214-A1C8-69AF9030E592</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_244BC2B6-6DF2-4AB2-9372-EB72CB8A8D1A</bpmn2:flowNodeRef>
-        <bpmn2:flowNodeRef>_25BCEFA0-B778-455C-B421-CDBC974933A9</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59</bpmn2:flowNodeRef>
+        <bpmn2:flowNodeRef>_25BCEFA0-B778-455C-B421-CDBC974933A9</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_6BF33263-6A0D-413D-BA3A-C681AC84904D</bpmn2:flowNodeRef>
-        <bpmn2:flowNodeRef>_B8096020-9A05-4572-842A-6F475F102367</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_A805180F-8921-428C-92A0-5E4A0C507138</bpmn2:flowNodeRef>
+        <bpmn2:flowNodeRef>_B8096020-9A05-4572-842A-6F475F102367</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_4A011DD9-D114-4C06-89C4-9F092135CD21</bpmn2:flowNodeRef>
         <bpmn2:flowNodeRef>_8856CE47-FD87-492A-B250-292C9CF753ED</bpmn2:flowNodeRef>
       </bpmn2:lane>
@@ -190,7 +190,7 @@
       </bpmn2:lane>
     </bpmn2:laneSet>
     <bpmn2:sequenceFlow id="_6A6FD433-CF53-46A5-B621-10ADD323ADF4" sourceRef="_4A011DD9-D114-4C06-89C4-9F092135CD21" targetRef="_B8096020-9A05-4572-842A-6F475F102367">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyYoImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(suitableCandidate);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgMoInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(suitableCandidate);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_4157C798-41B6-4332-B79A-5172CD5E39E5" sourceRef="_6BF33263-6A0D-413D-BA3A-C681AC84904D" targetRef="_B8096020-9A05-4572-842A-6F475F102367">
       <bpmn2:extensionElements>
@@ -198,11 +198,7 @@
           <drools:metaValue><![CDATA[true]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyY4ImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(okOffer);]]></bpmn2:conditionExpression>
-    </bpmn2:sequenceFlow>
-    <bpmn2:sequenceFlow id="_CC27CA06-994E-46F7-9D4A-EDE359211489" sourceRef="_25BCEFA0-B778-455C-B421-CDBC974933A9" targetRef="_4A011DD9-D114-4C06-89C4-9F092135CD21"/>
-    <bpmn2:sequenceFlow id="_46B22252-BD58-48E8-84A6-05F4A1353AC6" sourceRef="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" targetRef="_25BCEFA0-B778-455C-B421-CDBC974933A9">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyZIImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(suitableCandidate);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgM4InEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(okOffer);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_69CB3B09-1361-4D15-8B88-EFD2588F2692" sourceRef="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" targetRef="_B8096020-9A05-4572-842A-6F475F102367">
       <bpmn2:extensionElements>
@@ -213,9 +209,13 @@
           <drools:metaValue><![CDATA[true]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyZYImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(suitableCandidate);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgNIInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(suitableCandidate);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_DC98C864-E561-4127-A66C-C83E4B9B9029" sourceRef="_8856CE47-FD87-492A-B250-292C9CF753ED" targetRef="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59"/>
+    <bpmn2:sequenceFlow id="_CC27CA06-994E-46F7-9D4A-EDE359211489" sourceRef="_25BCEFA0-B778-455C-B421-CDBC974933A9" targetRef="_4A011DD9-D114-4C06-89C4-9F092135CD21"/>
+    <bpmn2:sequenceFlow id="_46B22252-BD58-48E8-84A6-05F4A1353AC6" sourceRef="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" targetRef="_25BCEFA0-B778-455C-B421-CDBC974933A9">
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgNYInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(suitableCandidate);]]></bpmn2:conditionExpression>
+    </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_BC850EAA-C8C8-4B06-9F1D-09A0343BA3EF" sourceRef="_B8096020-9A05-4572-842A-6F475F102367" targetRef="_244BC2B6-6DF2-4AB2-9372-EB72CB8A8D1A"/>
     <bpmn2:sequenceFlow id="_F48961B7-E565-4EC1-9404-CCD28B3500E0" sourceRef="_99EC1408-641B-4603-9F54-FE358612A429" targetRef="_8856CE47-FD87-492A-B250-292C9CF753ED">
       <bpmn2:extensionElements>
@@ -258,7 +258,7 @@
       </bpmn2:extensionElements>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_BA29CFFB-B4DA-4484-98CF-8D713784E45E" sourceRef="_6BF33263-6A0D-413D-BA3A-C681AC84904D" targetRef="_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyZoImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(okOffer);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgNoInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(okOffer);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_76E364A2-C3F3-4C2D-BFC1-0B148B71220A" sourceRef="_DB402D52-B57B-4214-A1C8-69AF9030E592" targetRef="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2"/>
     <bpmn2:sequenceFlow id="_ECCA45BA-765A-4B38-9332-542B5E98DDB2" sourceRef="_7A736112-8A70-46E6-8D83-FE884A3B2D82" targetRef="_D8EF5F30-C22A-499F-B972-33497EE01227">
@@ -272,7 +272,7 @@
       </bpmn2:extensionElements>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_96B69B39-3B9F-40EA-AC6F-CADC8AD792C3" sourceRef="_3D21AC87-A378-491B-B249-7FCE35A9C40A" targetRef="_7A736112-8A70-46E6-8D83-FE884A3B2D82">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyZ4ImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(okProfile);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgN4InEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(okProfile);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_94D9726E-B9E2-47C1-8AE4-CD5E09646665" sourceRef="_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2" targetRef="_DB402D52-B57B-4214-A1C8-69AF9030E592">
       <bpmn2:extensionElements>
@@ -293,11 +293,11 @@
           <drools:metaValue><![CDATA[true]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyaIImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(okProfile);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgOIInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isFalse(okProfile);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_9FDC3735-E27B-407C-8F26-DBAA00F4FB35" sourceRef="_56D914D0-61F9-4E69-9650-AFD63F89C0A1" targetRef="_6BF33263-6A0D-413D-BA3A-C681AC84904D"/>
     <bpmn2:sequenceFlow id="_BE6FD8D9-A22F-477D-9EA0-5E3D1D44947B" sourceRef="_4A011DD9-D114-4C06-89C4-9F092135CD21" targetRef="_56D914D0-61F9-4E69-9650-AFD63F89C0A1">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_evyyaYImEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(suitableCandidate);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_adBgOYInEemxFOFNrw4eGQ" language="http://www.java.com/java"><![CDATA[return KieFunctions.isTrue(suitableCandidate);]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_D1CBF7E2-E443-477C-A649-DA35F9AE23B9" sourceRef="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6" targetRef="_3D21AC87-A378-491B-B249-7FCE35A9C40A"/>
     <bpmn2:sequenceFlow id="_5AEFE21C-2BD7-4F5E-A9A5-E512A6B3F435" sourceRef="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2" targetRef="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6">
@@ -328,39 +328,39 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_F48961B7-E565-4EC1-9404-CCD28B3500E0</bpmn2:incoming>
       <bpmn2:outgoing>_DC98C864-E561-4127-A66C-C83E4B9B9029</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_evyyaoImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adBgOoInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputX" drools:dtype="Object" itemSubjectRef="__8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_8856CE47-FD87-492A-B250-292C9CF753ED_suitableOutputX" drools:dtype="Boolean" itemSubjectRef="__8856CE47-FD87-492A-B250-292C9CF753ED_suitableOutputXItem" name="suitable"/>
-        <bpmn2:inputSet id="_evyya4ImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adBgO4InEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_evyybIImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adBgPIInEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_8856CE47-FD87-492A-B250-292C9CF753ED_suitableOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_evyybYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgPYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evyyboImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evyyb4ImEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evyycIImEemxFOFNrw4eGQ">_8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgPoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgP4InEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adBgQIInEemxFOFNrw4eGQ">_8856CE47-FD87-492A-B250-292C9CF753ED_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evyycYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgQYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evyycoImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evyyc4ImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evyydIImEemxFOFNrw4eGQ">_8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgQoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgQ4InEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adBgRIInEemxFOFNrw4eGQ">_8856CE47-FD87-492A-B250-292C9CF753ED_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_evyydYImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adBgRYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_8856CE47-FD87-492A-B250-292C9CF753ED_suitableOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>suitableCandidate</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="90e70c4a-082b-447e-a873-f6d8f7f912c7">
-        <bpmn2:resourceAssignmentExpression id="_evzZcIImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_evzZcYImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="8461cb39-4465-4124-be10-230674bdf79c">
+        <bpmn2:resourceAssignmentExpression id="_adBgRoInEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adBgR4InEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -374,12 +374,6 @@
       <bpmn2:outgoing>_BE6FD8D9-A22F-477D-9EA0-5E3D1D44947B</bpmn2:outgoing>
       <bpmn2:outgoing>_6A6FD433-CF53-46A5-B621-10ADD323ADF4</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
-    <bpmn2:exclusiveGateway id="_B8096020-9A05-4572-842A-6F475F102367" gatewayDirection="Converging">
-      <bpmn2:incoming>_69CB3B09-1361-4D15-8B88-EFD2588F2692</bpmn2:incoming>
-      <bpmn2:incoming>_4157C798-41B6-4332-B79A-5172CD5E39E5</bpmn2:incoming>
-      <bpmn2:incoming>_6A6FD433-CF53-46A5-B621-10ADD323ADF4</bpmn2:incoming>
-      <bpmn2:outgoing>_BC850EAA-C8C8-4B06-9F1D-09A0343BA3EF</bpmn2:outgoing>
-    </bpmn2:exclusiveGateway>
     <bpmn2:intermediateCatchEvent id="_A805180F-8921-428C-92A0-5E4A0C507138" name="candidate resume received">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -388,8 +382,14 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_57E5CA60-C171-4734-BF84-2C5F754374B7</bpmn2:incoming>
       <bpmn2:outgoing>_8CFED56F-8ACF-49B2-A326-7C547E92AD26</bpmn2:outgoing>
-      <bpmn2:messageEventDefinition id="_evzZcoImEemxFOFNrw4eGQ" drools:msgref="resume_received" messageRef="_evzZc4ImEemxFOFNrw4eGQ"/>
+      <bpmn2:messageEventDefinition id="_adBgSIInEemxFOFNrw4eGQ" drools:msgref="resume_received" messageRef="_adBgSYInEemxFOFNrw4eGQ"/>
     </bpmn2:intermediateCatchEvent>
+    <bpmn2:exclusiveGateway id="_B8096020-9A05-4572-842A-6F475F102367" gatewayDirection="Converging">
+      <bpmn2:incoming>_69CB3B09-1361-4D15-8B88-EFD2588F2692</bpmn2:incoming>
+      <bpmn2:incoming>_4157C798-41B6-4332-B79A-5172CD5E39E5</bpmn2:incoming>
+      <bpmn2:incoming>_6A6FD433-CF53-46A5-B621-10ADD323ADF4</bpmn2:incoming>
+      <bpmn2:outgoing>_BC850EAA-C8C8-4B06-9F1D-09A0343BA3EF</bpmn2:outgoing>
+    </bpmn2:exclusiveGateway>
     <bpmn2:exclusiveGateway id="_3D21AC87-A378-491B-B249-7FCE35A9C40A" name="checks out?" gatewayDirection="Diverging">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -410,6 +410,16 @@
       <bpmn2:outgoing>_BA29CFFB-B4DA-4484-98CF-8D713784E45E</bpmn2:outgoing>
       <bpmn2:outgoing>_4157C798-41B6-4332-B79A-5172CD5E39E5</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
+    <bpmn2:exclusiveGateway id="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" name="is suitable?" gatewayDirection="Diverging">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[is suitable?]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_DC98C864-E561-4127-A66C-C83E4B9B9029</bpmn2:incoming>
+      <bpmn2:outgoing>_46B22252-BD58-48E8-84A6-05F4A1353AC6</bpmn2:outgoing>
+      <bpmn2:outgoing>_69CB3B09-1361-4D15-8B88-EFD2588F2692</bpmn2:outgoing>
+    </bpmn2:exclusiveGateway>
     <bpmn2:userTask id="_25BCEFA0-B778-455C-B421-CDBC974933A9" name="Conduct interview">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -418,53 +428,43 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_46B22252-BD58-48E8-84A6-05F4A1353AC6</bpmn2:incoming>
       <bpmn2:outgoing>_CC27CA06-994E-46F7-9D4A-EDE359211489</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_evzZdIImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adBgSoInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputX" drools:dtype="Object" itemSubjectRef="__25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_25BCEFA0-B778-455C-B421-CDBC974933A9_askPayOutputX" drools:dtype="Integer" itemSubjectRef="__25BCEFA0-B778-455C-B421-CDBC974933A9_askPayOutputXItem" name="askPay"/>
         <bpmn2:dataOutput id="_25BCEFA0-B778-455C-B421-CDBC974933A9_suitableOutputX" drools:dtype="Boolean" itemSubjectRef="__25BCEFA0-B778-455C-B421-CDBC974933A9_suitableOutputXItem" name="suitable"/>
-        <bpmn2:inputSet id="_evzZdYImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adBgS4InEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_evzZdoImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adBgTIInEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_25BCEFA0-B778-455C-B421-CDBC974933A9_askPayOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_25BCEFA0-B778-455C-B421-CDBC974933A9_suitableOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_evzZd4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgTYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZeIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZeYImEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZeoImEemxFOFNrw4eGQ">_25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgToInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgT4InEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adBgUIInEemxFOFNrw4eGQ">_25BCEFA0-B778-455C-B421-CDBC974933A9_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evzZe4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgUYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZfIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZfYImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZfoImEemxFOFNrw4eGQ">_25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgUoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgU4InEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adBgVIInEemxFOFNrw4eGQ">_25BCEFA0-B778-455C-B421-CDBC974933A9_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_evzZf4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adBgVYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_25BCEFA0-B778-455C-B421-CDBC974933A9_askPayOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>askingPay</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_evzZgIImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adBgVoInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_25BCEFA0-B778-455C-B421-CDBC974933A9_suitableOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>suitableCandidate</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:userTask>
-    <bpmn2:exclusiveGateway id="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" name="is suitable?" gatewayDirection="Diverging">
-      <bpmn2:extensionElements>
-        <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[is suitable?]]></drools:metaValue>
-        </drools:metaData>
-      </bpmn2:extensionElements>
-      <bpmn2:incoming>_DC98C864-E561-4127-A66C-C83E4B9B9029</bpmn2:incoming>
-      <bpmn2:outgoing>_69CB3B09-1361-4D15-8B88-EFD2588F2692</bpmn2:outgoing>
-      <bpmn2:outgoing>_46B22252-BD58-48E8-84A6-05F4A1353AC6</bpmn2:outgoing>
-    </bpmn2:exclusiveGateway>
     <bpmn2:endEvent id="_244BC2B6-6DF2-4AB2-9372-EB72CB8A8D1A" name="refusal">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -486,36 +486,36 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_8CFED56F-8ACF-49B2-A326-7C547E92AD26</bpmn2:incoming>
       <bpmn2:outgoing>_F48961B7-E565-4EC1-9404-CCD28B3500E0</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_evzZgYImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adBgV4InEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_99EC1408-641B-4603-9F54-FE358612A429_SkippableInputX" drools:dtype="Object" itemSubjectRef="__99EC1408-641B-4603-9F54-FE358612A429_SkippableInputXItem" name="Skippable"/>
-        <bpmn2:inputSet id="_evzZgoImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adBgWIInEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_99EC1408-641B-4603-9F54-FE358612A429_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_evzZg4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgWYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZhIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZhYImEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZhoImEemxFOFNrw4eGQ">_99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgWoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgW4InEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adBgXIInEemxFOFNrw4eGQ">_99EC1408-641B-4603-9F54-FE358612A429_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evzZh4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adBgXYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_99EC1408-641B-4603-9F54-FE358612A429_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZiIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZiYImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZioImEemxFOFNrw4eGQ">_99EC1408-641B-4603-9F54-FE358612A429_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adBgXoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adBgX4InEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHQIInEemxFOFNrw4eGQ">_99EC1408-641B-4603-9F54-FE358612A429_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:potentialOwner id="4b90b1b7-9503-4fe2-850d-84e9b5df8380">
-        <bpmn2:resourceAssignmentExpression id="_evzZi4ImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_evzZjIImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="621a0645-4ca2-4a9a-bb4e-cb3ff93a43a1">
+        <bpmn2:resourceAssignmentExpression id="_adCHQYInEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adCHQoInEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
     <bpmn2:task id="_D8EF5F30-C22A-499F-B972-33497EE01227" drools:taskName="Rest" name="Publish job offer">
-      <bpmn2:documentation id="_evzZjYImEemxFOFNrw4eGQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_adCHQ4InEemxFOFNrw4eGQ"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Publish job offer]]></drools:metaValue>
@@ -523,26 +523,28 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_ECCA45BA-765A-4B38-9332-542B5E98DDB2</bpmn2:incoming>
       <bpmn2:outgoing>_57E5CA60-C171-4734-BF84-2C5F754374B7</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_evzZjoImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCHRIInEemxFOFNrw4eGQ">
+        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputXItem" name="Method"/>
+        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_AcceptCharsetInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_AcceptCharsetInputXItem" name="AcceptCharset"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_AcceptHeaderInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_AcceptHeaderInputXItem" name="AcceptHeader"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_AuthTypeInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_AuthTypeInputXItem" name="AuthType"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_AuthUrlInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_AuthUrlInputXItem" name="AuthUrl"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ConnectTimeoutInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ConnectTimeoutInputXItem" name="ConnectTimeout"/>
-        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputXItem" name="ContentData"/>
+        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputX" drools:dtype="com.JobOffer" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputXItem" name="ContentData"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeInputXItem" name="ContentType"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeCharsetInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeCharsetInputXItem" name="ContentTypeCharset"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_HandleResponseErrorsInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_HandleResponseErrorsInputXItem" name="HandleResponseErrors"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_HeadersInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_HeadersInputXItem" name="Headers"/>
-        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_PasswordInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_PasswordInputXItem" name="Password"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ReadTimeoutInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ReadTimeoutInputXItem" name="ReadTimeout"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ResultClassInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ResultClassInputXItem" name="ResultClass"/>
-        <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_UsernameInputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_UsernameInputXItem" name="Username"/>
         <bpmn2:dataInput id="_D8EF5F30-C22A-499F-B972-33497EE01227_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_D8EF5F30-C22A-499F-B972-33497EE01227_ResultOutputX" drools:dtype="String" itemSubjectRef="__D8EF5F30-C22A-499F-B972-33497EE01227_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_evzZj4ImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCHRYInEemxFOFNrw4eGQ">
+          <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX</bpmn2:dataInputRefs>
+          <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_AcceptCharsetInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_AcceptHeaderInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_AuthTypeInputX</bpmn2:dataInputRefs>
@@ -553,37 +555,46 @@
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeCharsetInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_HandleResponseErrorsInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_HeadersInputX</bpmn2:dataInputRefs>
-          <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_PasswordInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_ReadTimeoutInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_ResultClassInputX</bpmn2:dataInputRefs>
-          <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_UsernameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_evzZkIImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adCHRoInEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_D8EF5F30-C22A-499F-B972-33497EE01227_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_evzZkYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHR4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZkoImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZk4ImEemxFOFNrw4eGQ"><![CDATA[POST]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZlIImEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHSIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHSYInEemxFOFNrw4eGQ"><![CDATA[POST]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHSoInEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evzZlYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHS4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZloImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZl4ImEemxFOFNrw4eGQ"><![CDATA[http://host.docker.internal:8086/postOffer]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZmIImEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHTIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHTYInEemxFOFNrw4eGQ"><![CDATA[http://host.docker.internal:8086/postOffer]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHToInEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_UrlInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evzZmYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHT4InEemxFOFNrw4eGQ">
+        <bpmn2:sourceRef>jobOffer</bpmn2:sourceRef>
+        <bpmn2:targetRef>_D8EF5F30-C22A-499F-B972-33497EE01227_ContentDataInputX</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_adCHUIInEemxFOFNrw4eGQ">
+        <bpmn2:targetRef>_D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_adCHUYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHUoInEemxFOFNrw4eGQ"><![CDATA[application/json]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHU4InEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_ContentTypeInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_adCHVIInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_D8EF5F30-C22A-499F-B972-33497EE01227_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZmoImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZm4ImEemxFOFNrw4eGQ"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZnIImEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHVYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHVoInEemxFOFNrw4eGQ"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHV4InEemxFOFNrw4eGQ">_D8EF5F30-C22A-499F-B972-33497EE01227_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
     </bpmn2:task>
@@ -598,31 +609,31 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_BA29CFFB-B4DA-4484-98CF-8D713784E45E</bpmn2:incoming>
       <bpmn2:outgoing>_79E073AD-A556-4CD6-99A2-15E8B00CBE15</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_evzZnYImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCHWIInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputX" drools:dtype="Object" itemSubjectRef="__EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputXItem" name="Skippable"/>
-        <bpmn2:inputSet id="_evzZnoImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCHWYInEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_evzZn4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHWoInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZoIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZoYImEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZooImEemxFOFNrw4eGQ">_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHW4InEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHXIInEemxFOFNrw4eGQ"><![CDATA[Task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHXYInEemxFOFNrw4eGQ">_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_evzZo4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHXoInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_evzZpIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_evzZpYImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_evzZpoImEemxFOFNrw4eGQ">_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHX4InEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHYIInEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHYYInEemxFOFNrw4eGQ">_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:potentialOwner id="21e85aff-6114-4200-95e2-cf9938d9fc5b">
-        <bpmn2:resourceAssignmentExpression id="_evzZp4ImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_evzZqIImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="8c865760-e9a1-41e2-bfe2-46c3c124c0be">
+        <bpmn2:resourceAssignmentExpression id="_adCHYoInEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adCHY4InEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -634,7 +645,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_76E364A2-C3F3-4C2D-BFC1-0B148B71220A</bpmn2:incoming>
       <bpmn2:outgoing>_5AEFE21C-2BD7-4F5E-A9A5-E512A6B3F435</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_ev0AgIImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCHZIInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleInputX" drools:dtype="String" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleInputXItem" name="title"/>
         <bpmn2:dataInput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionInputX" drools:dtype="String" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionInputXItem" name="position"/>
@@ -645,7 +656,7 @@
         <bpmn2:dataOutput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionOutputX" drools:dtype="String" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionOutputXItem" name="position"/>
         <bpmn2:dataOutput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_offeredPayOutputX" drools:dtype="Integer" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_offeredPayOutputXItem" name="offeredPay"/>
         <bpmn2:dataOutput id="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionOutputX" drools:dtype="String" itemSubjectRef="__6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionOutputXItem" name="jobDescription"/>
-        <bpmn2:inputSet id="_ev0AgYImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCHZYInEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionInputX</bpmn2:dataInputRefs>
@@ -653,62 +664,62 @@
           <bpmn2:dataInputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_ev0AgoImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adCHZoInEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_offeredPayOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_ev0Ag4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHZ4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AhIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AhYImEemxFOFNrw4eGQ"><![CDATA[createCandidateProfile]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0AhoImEemxFOFNrw4eGQ">_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHaIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHaYInEemxFOFNrw4eGQ"><![CDATA[createCandidateProfile]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHaoInEemxFOFNrw4eGQ">_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0Ah4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHa4InEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>jobTitle</bpmn2:sourceRef>
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AiIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHbIInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>position</bpmn2:sourceRef>
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AiYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHbYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>offeredPay</bpmn2:sourceRef>
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_offeredPayInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AioImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHboInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>jobDescription</bpmn2:sourceRef>
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0Ai4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHb4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AjIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AjYImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0AjoImEemxFOFNrw4eGQ">_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHcIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHcYInEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHcoInEemxFOFNrw4eGQ">_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0Aj4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCHc4InEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_titleOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>jobTitle</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0AkIImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCHdIInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_positionOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>position</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0AkYImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCHdYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_offeredPayOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>offeredPay</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0AkoImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCHdoInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_6FD8A90B-AE44-4313-B126-9F3722FAF6D2_jobDescriptionOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>jobDescription</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="2bf4af8f-6dad-47d7-9090-b495cf7d62ee">
-        <bpmn2:resourceAssignmentExpression id="_ev0Ak4ImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_ev0AlIImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="1b6ddd3d-1a09-408d-9dd7-a4ca5c900fc1">
+        <bpmn2:resourceAssignmentExpression id="_adCHd4InEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adCHeIInEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -733,31 +744,31 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_5BE1E2F0-8488-48F0-9D43-47CC998F4C72</bpmn2:incoming>
       <bpmn2:outgoing>_94D9726E-B9E2-47C1-8AE4-CD5E09646665</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_ev0AlYImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCHeYInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputX" drools:dtype="Object" itemSubjectRef="__5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputXItem" name="Skippable"/>
-        <bpmn2:inputSet id="_ev0AloImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCHeoInEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_ev0Al4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHe4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AmIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AmYImEemxFOFNrw4eGQ"><![CDATA[consultRecruiter]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0AmoImEemxFOFNrw4eGQ">_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHfIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHfYInEemxFOFNrw4eGQ"><![CDATA[consultRecruiter]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHfoInEemxFOFNrw4eGQ">_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0Am4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCHf4InEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AnIImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AnYImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0AnoImEemxFOFNrw4eGQ">_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCHgIInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCHgYInEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCHgoInEemxFOFNrw4eGQ">_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:potentialOwner id="017cf433-142a-4679-8fc0-cd35c15b5d07">
-        <bpmn2:resourceAssignmentExpression id="_ev0An4ImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_ev0AoIImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="1e6553d9-7383-4643-a380-b4ac0ae48bb7">
+        <bpmn2:resourceAssignmentExpression id="_adCHg4InEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adCHhIInEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -769,57 +780,57 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_BE6FD8D9-A22F-477D-9EA0-5E3D1D44947B</bpmn2:incoming>
       <bpmn2:outgoing>_9FDC3735-E27B-407C-8F26-DBAA00F4FB35</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_ev0AoYImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCHhYInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputX" drools:dtype="java.lang.String" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputXItem" name="namespace"/>
         <bpmn2:dataInput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputX" drools:dtype="java.lang.String" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputXItem" name="decision"/>
         <bpmn2:dataInput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputX" drools:dtype="java.lang.String" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputXItem" name="model"/>
         <bpmn2:dataInput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputX" drools:dtype="Float" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputXItem" name="requestedAndMaxPayRatio"/>
         <bpmn2:dataInput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_positionInputX" drools:dtype="String" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_positionInputXItem" name="position"/>
         <bpmn2:dataOutput id="_56D914D0-61F9-4E69-9650-AFD63F89C0A1_shouldHireOutputX" drools:dtype="Boolean" itemSubjectRef="__56D914D0-61F9-4E69-9650-AFD63F89C0A1_shouldHireOutputXItem" name="shouldHire"/>
-        <bpmn2:inputSet id="_ev0AooImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCHhoInEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_positionInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_ev0Ao4ImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adCHh4InEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_shouldHireOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_ev0ApIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuUIInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0ApYImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0ApoImEemxFOFNrw4eGQ"><![CDATA[https://github.com/kiegroup/drools/kie-dmn/_528D478F-03C5-4698-91C2-68D5148019E0]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0Ap4ImEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuUYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCuUoInEemxFOFNrw4eGQ"><![CDATA[https://github.com/kiegroup/drools/kie-dmn/_528D478F-03C5-4698-91C2-68D5148019E0]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCuU4InEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_namespaceInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AqIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuVIInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AqYImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AqoImEemxFOFNrw4eGQ"><![CDATA[shouldHire]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0Aq4ImEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuVYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCuVoInEemxFOFNrw4eGQ"><![CDATA[shouldHire]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCuV4InEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_decisionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0ArIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuWIInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0ArYImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AroImEemxFOFNrw4eGQ"><![CDATA[JobOfferDMN]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0Ar4ImEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuWYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCuWoInEemxFOFNrw4eGQ"><![CDATA[JobOfferDMN]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCuW4InEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_modelInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AsIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuXIInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0AsYImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0AsoImEemxFOFNrw4eGQ"><![CDATA[1.02]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0As4ImEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuXYInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCuXoInEemxFOFNrw4eGQ"><![CDATA[1.02]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCuX4InEemxFOFNrw4eGQ">_56D914D0-61F9-4E69-9650-AFD63F89C0A1_requestedAndMaxPayRatioInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0AtIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuYIInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>position</bpmn2:sourceRef>
         <bpmn2:targetRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_positionInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0AtYImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCuYYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_56D914D0-61F9-4E69-9650-AFD63F89C0A1_shouldHireOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>okOffer</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -832,7 +843,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_5AEFE21C-2BD7-4F5E-A9A5-E512A6B3F435</bpmn2:incoming>
       <bpmn2:outgoing>_D1CBF7E2-E443-477C-A649-DA35F9AE23B9</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_ev0AtoImEemxFOFNrw4eGQ">
+      <bpmn2:ioSpecification id="_adCuYoInEemxFOFNrw4eGQ">
         <bpmn2:dataInput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_titleInputX" drools:dtype="String" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_titleInputXItem" name="title"/>
         <bpmn2:dataInput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_positionInputX" drools:dtype="String" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_positionInputXItem" name="position"/>
@@ -840,7 +851,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
         <bpmn2:dataInput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_descInputX" drools:dtype="String" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_descInputXItem" name="desc"/>
         <bpmn2:dataInput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputX" drools:dtype="Object" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_okOutputX" drools:dtype="Boolean" itemSubjectRef="__E6BFEFAC-38EC-4C8E-A086-77617180A2D6_okOutputXItem" name="ok"/>
-        <bpmn2:inputSet id="_ev0At4ImEemxFOFNrw4eGQ">
+        <bpmn2:inputSet id="_adCuY4InEemxFOFNrw4eGQ">
           <bpmn2:dataInputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_titleInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_positionInputX</bpmn2:dataInputRefs>
@@ -848,47 +859,47 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
           <bpmn2:dataInputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_descInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_ev0nkIImEemxFOFNrw4eGQ">
+        <bpmn2:outputSet id="_adCuZIInEemxFOFNrw4eGQ">
           <bpmn2:dataOutputRefs>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_okOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_ev0nkYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuZYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0nkoImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0nk4ImEemxFOFNrw4eGQ"><![CDATA[reviewCandidateProfile]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0nlIImEemxFOFNrw4eGQ">_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuZoInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCuZ4InEemxFOFNrw4eGQ"><![CDATA[reviewCandidateProfile]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCuaIInEemxFOFNrw4eGQ">_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0nlYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuaYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>jobTitle</bpmn2:sourceRef>
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_titleInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0nloImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCuaoInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>position</bpmn2:sourceRef>
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_positionInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0nl4ImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCua4InEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>offeredPay</bpmn2:sourceRef>
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_payInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0nmIImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCubIInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>jobDescription</bpmn2:sourceRef>
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_descInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_ev0nmYImEemxFOFNrw4eGQ">
+      <bpmn2:dataInputAssociation id="_adCubYInEemxFOFNrw4eGQ">
         <bpmn2:targetRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_ev0nmoImEemxFOFNrw4eGQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_ev0nm4ImEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_ev0nnIImEemxFOFNrw4eGQ">_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_adCuboInEemxFOFNrw4eGQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_adCub4InEemxFOFNrw4eGQ"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_adCucIInEemxFOFNrw4eGQ">_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_ev0nnYImEemxFOFNrw4eGQ">
+      <bpmn2:dataOutputAssociation id="_adCucYInEemxFOFNrw4eGQ">
         <bpmn2:sourceRef>_E6BFEFAC-38EC-4C8E-A086-77617180A2D6_okOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>okProfile</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="7a64c8dc-4859-45c3-8082-e25a31873f52">
-        <bpmn2:resourceAssignmentExpression id="_ev0nnoImEemxFOFNrw4eGQ">
-          <bpmn2:formalExpression id="_ev0nn4ImEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
+      <bpmn2:potentialOwner id="0985d879-2bdc-4d89-9c79-e7b6dd07da63">
+        <bpmn2:resourceAssignmentExpression id="_adCucoInEemxFOFNrw4eGQ">
+          <bpmn2:formalExpression id="_adCuc4InEemxFOFNrw4eGQ">wbadmin</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
@@ -901,8 +912,8 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       <bpmn2:incoming>_79E073AD-A556-4CD6-99A2-15E8B00CBE15</bpmn2:incoming>
     </bpmn2:endEvent>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_ev0noIImEemxFOFNrw4eGQ">
-    <bpmndi:BPMNPlane id="_ev0noYImEemxFOFNrw4eGQ" bpmnElement="VVTF.Hiring">
+  <bpmndi:BPMNDiagram id="_adCudIInEemxFOFNrw4eGQ">
+    <bpmndi:BPMNPlane id="_adCudYInEemxFOFNrw4eGQ" bpmnElement="VVTF.Hiring">
       <bpmndi:BPMNShape id="shape__3432706F-2791-46D4-90C7-0EC9F7E13FB2" bpmnElement="_3432706F-2791-46D4-90C7-0EC9F7E13FB2">
         <dc:Bounds height="56.0" width="56.0" x="2494.0" y="448.0"/>
       </bpmndi:BPMNShape>
@@ -939,11 +950,11 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       <bpmndi:BPMNShape id="shape__244BC2B6-6DF2-4AB2-9372-EB72CB8A8D1A" bpmnElement="_244BC2B6-6DF2-4AB2-9372-EB72CB8A8D1A">
         <dc:Bounds height="56.0" width="56.0" x="1926.0" y="568.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" bpmnElement="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59">
-        <dc:Bounds height="56.0" width="56.0" x="1515.0" y="448.0"/>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__25BCEFA0-B778-455C-B421-CDBC974933A9" bpmnElement="_25BCEFA0-B778-455C-B421-CDBC974933A9">
         <dc:Bounds height="102.0" width="154.0" x="1622.0" y="425.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" bpmnElement="_9FE1912A-4B24-43DD-A6B6-44DE82BCAE59">
+        <dc:Bounds height="56.0" width="56.0" x="1515.0" y="448.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__6BF33263-6A0D-413D-BA3A-C681AC84904D" bpmnElement="_6BF33263-6A0D-413D-BA3A-C681AC84904D">
         <dc:Bounds height="56.0" width="56.0" x="2158.0" y="448.0"/>
@@ -951,11 +962,11 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       <bpmndi:BPMNShape id="shape__3D21AC87-A378-491B-B249-7FCE35A9C40A" bpmnElement="_3D21AC87-A378-491B-B249-7FCE35A9C40A">
         <dc:Bounds height="56.0" width="56.0" x="753.0" y="865.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__A805180F-8921-428C-92A0-5E4A0C507138" bpmnElement="_A805180F-8921-428C-92A0-5E4A0C507138">
-        <dc:Bounds height="56.0" width="56.0" x="1221.0" y="448.0"/>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__B8096020-9A05-4572-842A-6F475F102367" bpmnElement="_B8096020-9A05-4572-842A-6F475F102367">
         <dc:Bounds height="56.0" width="56.0" x="1824.0" y="568.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__A805180F-8921-428C-92A0-5E4A0C507138" bpmnElement="_A805180F-8921-428C-92A0-5E4A0C507138">
+        <dc:Bounds height="56.0" width="56.0" x="1221.0" y="448.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__4A011DD9-D114-4C06-89C4-9F092135CD21" bpmnElement="_4A011DD9-D114-4C06-89C4-9F092135CD21">
         <dc:Bounds height="56.0" width="56.0" x="1824.0" y="448.0"/>
@@ -1041,6 +1052,14 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
         <di:waypoint xsi:type="dc:Point" x="1880.0" y="596.0"/>
         <di:waypoint xsi:type="dc:Point" x="1926.0" y="596.0"/>
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_shape__9FE1912A-4B24-43DD-A6B6-44DE82BCAE59_to_shape__25BCEFA0-B778-455C-B421-CDBC974933A9" bpmnElement="_46B22252-BD58-48E8-84A6-05F4A1353AC6">
+        <di:waypoint xsi:type="dc:Point" x="1571.0" y="476.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1622.0" y="476.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="edge_shape__25BCEFA0-B778-455C-B421-CDBC974933A9_to_shape__4A011DD9-D114-4C06-89C4-9F092135CD21" bpmnElement="_CC27CA06-994E-46F7-9D4A-EDE359211489">
+        <di:waypoint xsi:type="dc:Point" x="1776.0" y="476.0"/>
+        <di:waypoint xsi:type="dc:Point" x="1824.0" y="476.0"/>
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="edge_shape__8856CE47-FD87-492A-B250-292C9CF753ED_to_shape__9FE1912A-4B24-43DD-A6B6-44DE82BCAE59" bpmnElement="_DC98C864-E561-4127-A66C-C83E4B9B9029">
         <di:waypoint xsi:type="dc:Point" x="1464.0" y="476.0"/>
         <di:waypoint xsi:type="dc:Point" x="1515.0" y="476.0"/>
@@ -1049,14 +1068,6 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
         <di:waypoint xsi:type="dc:Point" x="1571.0" y="476.0"/>
         <di:waypoint xsi:type="dc:Point" x="1543.0" y="595.0"/>
         <di:waypoint xsi:type="dc:Point" x="1824.0" y="596.0"/>
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="edge_shape__9FE1912A-4B24-43DD-A6B6-44DE82BCAE59_to_shape__25BCEFA0-B778-455C-B421-CDBC974933A9" bpmnElement="_46B22252-BD58-48E8-84A6-05F4A1353AC6">
-        <di:waypoint xsi:type="dc:Point" x="1571.0" y="476.0"/>
-        <di:waypoint xsi:type="dc:Point" x="1622.0" y="476.0"/>
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="edge_shape__25BCEFA0-B778-455C-B421-CDBC974933A9_to_shape__4A011DD9-D114-4C06-89C4-9F092135CD21" bpmnElement="_CC27CA06-994E-46F7-9D4A-EDE359211489">
-        <di:waypoint xsi:type="dc:Point" x="1776.0" y="476.0"/>
-        <di:waypoint xsi:type="dc:Point" x="1824.0" y="476.0"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="edge_shape__6BF33263-6A0D-413D-BA3A-C681AC84904D_to_shape__B8096020-9A05-4572-842A-6F475F102367" bpmnElement="_4157C798-41B6-4332-B79A-5172CD5E39E5">
         <di:waypoint xsi:type="dc:Point" x="2158.0" y="476.0"/>
@@ -1071,12 +1082,12 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_ev0nooImEemxFOFNrw4eGQ" type="BPSimData">
+  <bpmn2:relationship id="_adCudoInEemxFOFNrw4eGQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6" id="_ev0no4ImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E6BFEFAC-38EC-4C8E-A086-77617180A2D6" id="_adCud4InEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1096,7 +1107,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_56D914D0-61F9-4E69-9650-AFD63F89C0A1" id="_ev0npIImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_56D914D0-61F9-4E69-9650-AFD63F89C0A1" id="_adCueIInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1116,7 +1127,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2" id="_ev0npYImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5D3EA5CD-A603-433F-BC01-BA57B99DA6F2" id="_adCueYInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1136,7 +1147,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_7A736112-8A70-46E6-8D83-FE884A3B2D82" id="_ev0npoImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_7A736112-8A70-46E6-8D83-FE884A3B2D82" id="_adCueoInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1156,7 +1167,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2" id="_ev0np4ImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6FD8A90B-AE44-4313-B126-9F3722FAF6D2" id="_adCue4InEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1176,7 +1187,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51" id="_ev0nqIImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EDCEDB0C-1EA0-406A-B389-C3E9BC6E5C51" id="_adCufIInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1196,34 +1207,14 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_00EC00A8-C8CA-481A-9F21-5C235BDF091B" id="_ev0nqYImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_00EC00A8-C8CA-481A-9F21-5C235BDF091B" id="_adCufYInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D8EF5F30-C22A-499F-B972-33497EE01227" id="_ev0nqoImEemxFOFNrw4eGQ">
-            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
-              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
-                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
-              </bpsim:ProcessingTime>
-            </bpsim:TimeParameters>
-            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
-              <bpsim:Availability xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:Availability>
-              <bpsim:Quantity xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:Quantity>
-            </bpsim:ResourceParameters>
-            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
-              <bpsim:UnitCost xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:UnitCost>
-            </bpsim:CostParameters>
-          </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_99EC1408-641B-4603-9F54-FE358612A429" id="_ev0nq4ImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D8EF5F30-C22A-499F-B972-33497EE01227" id="_adCufoInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1243,7 +1234,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_25BCEFA0-B778-455C-B421-CDBC974933A9" id="_ev0nrIImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_99EC1408-641B-4603-9F54-FE358612A429" id="_adCuf4InEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1263,7 +1254,27 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8856CE47-FD87-492A-B250-292C9CF753ED" id="_ev0nrYImEemxFOFNrw4eGQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_25BCEFA0-B778-455C-B421-CDBC974933A9" id="_adCugIInEemxFOFNrw4eGQ">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8856CE47-FD87-492A-B250-292C9CF753ED" id="_adCugYInEemxFOFNrw4eGQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -1286,7 +1297,7 @@ jobOffer.setOfferedPay(offeredPay);]]></bpmn2:script>
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_evyyYIImEemxFOFNrw4eGQ</bpmn2:source>
-    <bpmn2:target>_evyyYIImEemxFOFNrw4eGQ</bpmn2:target>
+    <bpmn2:source>_adBgMIInEemxFOFNrw4eGQ</bpmn2:source>
+    <bpmn2:target>_adBgMIInEemxFOFNrw4eGQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
