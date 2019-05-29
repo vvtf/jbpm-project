@@ -6,12 +6,24 @@ package com;
 
 public class Message implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Message() {
-    }
+	@org.kie.api.definition.type.Label(value = "message")
+	private java.lang.String message;
 
+	public Message() {
+	}
 
+	public java.lang.String getMessage() {
+		return this.message;
+	}
 
+	public void setMessage(java.lang.String message) {
+		this.message = message;
+	}
+
+	public Message(java.lang.String message) {
+		this.message = message;
+	}
 
 }
