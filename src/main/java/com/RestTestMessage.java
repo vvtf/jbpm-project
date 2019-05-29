@@ -6,12 +6,24 @@ package com;
 
 public class RestTestMessage implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public RestTestMessage() {
-    }
+	@org.kie.api.definition.type.Label(value = "Message")
+	private java.lang.String message;
 
+	public RestTestMessage() {
+	}
 
+	public java.lang.String getMessage() {
+		return this.message;
+	}
 
+	public void setMessage(java.lang.String message) {
+		this.message = message;
+	}
+
+	public RestTestMessage(java.lang.String message) {
+		this.message = message;
+	}
 
 }
