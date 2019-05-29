@@ -8,12 +8,15 @@ public class JobOffer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Job Title")
+	@org.kie.api.definition.type.Label("Job Title")
 	private java.lang.String jobTitle;
-	@org.kie.api.definition.type.Label(value = "Position (junior, intermediate, senior)")
+	@org.kie.api.definition.type.Label("Position (junior, intermediate, senior)")
 	private java.lang.String position;
-	@org.kie.api.definition.type.Label(value = "Offered pay")
+	@org.kie.api.definition.type.Label("Offered pay")
 	private java.lang.Integer offeredPay;
+
+	@org.kie.api.definition.type.Label(value = "Job description")
+	private java.lang.String description;
 
 	public JobOffer() {
 	}
@@ -42,11 +45,20 @@ public class JobOffer implements java.io.Serializable {
 		this.offeredPay = offeredPay;
 	}
 
+	public java.lang.String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(java.lang.String description) {
+		this.description = description;
+	}
+
 	public JobOffer(java.lang.String jobTitle, java.lang.String position,
-			java.lang.Integer offeredPay) {
+			java.lang.Integer offeredPay, java.lang.String description) {
 		this.jobTitle = jobTitle;
 		this.position = position;
 		this.offeredPay = offeredPay;
+		this.description = description;
 	}
 
 }
