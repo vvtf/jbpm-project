@@ -6,12 +6,47 @@ package com;
 
 public class JobOffer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public JobOffer() {
-    }
+	@org.kie.api.definition.type.Label(value = "Job Title")
+	private java.lang.String jobTitle;
+	@org.kie.api.definition.type.Label(value = "Position (junior, intermediate, senior)")
+	private java.lang.String position;
+	@org.kie.api.definition.type.Label(value = "Offered pay")
+	private java.lang.Integer offeredPay;
 
+	public JobOffer() {
+	}
 
+	public java.lang.String getJobTitle() {
+		return this.jobTitle;
+	}
 
+	public void setJobTitle(java.lang.String jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+
+	public java.lang.String getPosition() {
+		return this.position;
+	}
+
+	public void setPosition(java.lang.String position) {
+		this.position = position;
+	}
+
+	public java.lang.Integer getOfferedPay() {
+		return this.offeredPay;
+	}
+
+	public void setOfferedPay(java.lang.Integer offeredPay) {
+		this.offeredPay = offeredPay;
+	}
+
+	public JobOffer(java.lang.String jobTitle, java.lang.String position,
+			java.lang.Integer offeredPay) {
+		this.jobTitle = jobTitle;
+		this.position = position;
+		this.offeredPay = offeredPay;
+	}
 
 }
