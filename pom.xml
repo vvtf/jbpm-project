@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>VVTF</artifactId>
-  <version>4.0-SNAPSHOT</version>
+  <version>4.0.1-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>VVTF</name>
   <description>Variable Vehicular TransFormation</description>
