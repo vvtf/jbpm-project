@@ -110,8 +110,8 @@
   <dmn:inputData id="_6FAA2810-31FF-4227-9079-1CA7537AC31B" name="ratio">
     <dmn:variable id="_234A216D-E464-412B-91CB-E78CA80D8683" name="ratio" typeRef="number"/>
   </dmn:inputData>
-  <dmn:inputData id="_3EBB5A7A-FC69-4458-A856-E243150E3DC2" name="position">
-    <dmn:variable id="_53B536EC-7A90-4C70-9506-AA276B3C6C40" name="position" typeRef="string"/>
+  <dmn:inputData id="_3EBB5A7A-FC69-4458-A856-E243150E3DC2" name="level">
+    <dmn:variable id="_53B536EC-7A90-4C70-9506-AA276B3C6C40" name="level" typeRef="number"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
