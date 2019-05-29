@@ -17,7 +17,7 @@
       </dmn:input>
       <dmn:input id="_E27B7D6F-4441-4BF6-B872-18A9C5A4B4F5">
         <dmn:inputExpression id="_ABAA97AD-5B43-4729-A337-B60E893DAD54" typeRef="number">
-          <dmn:text>requestedAndMaxPayRatio</dmn:text>
+          <dmn:text>ratio</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_603D3376-9255-4D74-A859-68CFFE92FB31" typeRef="boolean"/>
@@ -27,7 +27,7 @@
           <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_82B68279-D51B-4321-A7FA-A9412C479D99">
-          <dmn:text>&lt;=1.05</dmn:text>
+          <dmn:text>&lt;= 1.05</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_43884401-D48B-4CDD-956D-3A5DC86A5843">
           <dmn:text>true</dmn:text>
@@ -39,7 +39,7 @@
           <dmn:text>"senior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_812F8B3F-E6D8-4F1A-8BF9-197AEDCD27BD">
-          <dmn:text>&gt;1.05</dmn:text>
+          <dmn:text>&gt; 1.05</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_C8C79349-1E2C-4F98-841A-C9E4EE114122">
           <dmn:text>false</dmn:text>
@@ -48,10 +48,10 @@
       <dmn:rule id="_CF302771-B692-4CA0-8887-1E46B51B6305">
         <dmn:description>max 3% plus</dmn:description>
         <dmn:inputEntry id="_992256EF-2BE3-4966-AC84-FCBFD4BA26CC">
-          <dmn:text>"inter"</dmn:text>
+          <dmn:text>"intermediate"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CA0025E7-E35D-4467-9AE2-97C306F4F075">
-          <dmn:text>&lt;=1.03</dmn:text>
+          <dmn:text>&lt;= 1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_FCEFD67C-9B9D-466E-BC4F-21C56FE7E99F">
           <dmn:text>true</dmn:text>
@@ -60,10 +60,10 @@
       <dmn:rule id="_ED22C00A-5DC5-4724-B201-66ADA4DB5243">
         <dmn:description>wants too much for intermediate</dmn:description>
         <dmn:inputEntry id="_E7A0F394-912C-481F-A47C-E66FF9DEC700">
-          <dmn:text>"inter"</dmn:text>
+          <dmn:text>"intermediate"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_D731FBF8-DBC9-444B-B66B-466D8F7C8857">
-          <dmn:text>&gt;1.03</dmn:text>
+          <dmn:text>&gt; 1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_47B7FB78-C111-4FA9-98E1-23443CE05111">
           <dmn:text>false</dmn:text>
@@ -75,7 +75,7 @@
           <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_77EF0D63-7826-4BFB-9211-B21719EE068E">
-          <dmn:text>&lt;=1.01</dmn:text>
+          <dmn:text>&lt;= 1.01</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_F06BF0DB-1990-468D-97E5-608790C8712E">
           <dmn:text>true</dmn:text>
@@ -87,7 +87,7 @@
           <dmn:text>"junior"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B386A019-9EC4-4E7E-8AB9-3DE95EB7C951">
-          <dmn:text>&gt;1.03</dmn:text>
+          <dmn:text>&gt; 1.03</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_CBB087A4-7879-4C1C-BF21-2190BB7DE12F">
           <dmn:text>false</dmn:text>
@@ -95,8 +95,8 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:inputData id="_6FAA2810-31FF-4227-9079-1CA7537AC31B" name="requestedAndMaxPayRatio">
-    <dmn:variable id="_234A216D-E464-412B-91CB-E78CA80D8683" name="requestedAndMaxPayRatio" typeRef="number"/>
+  <dmn:inputData id="_6FAA2810-31FF-4227-9079-1CA7537AC31B" name="ratio">
+    <dmn:variable id="_234A216D-E464-412B-91CB-E78CA80D8683" name="ratio" typeRef="number"/>
   </dmn:inputData>
   <dmn:inputData id="_3EBB5A7A-FC69-4458-A856-E243150E3DC2" name="position">
     <dmn:variable id="_53B536EC-7A90-4C70-9506-AA276B3C6C40" name="position" typeRef="string"/>
@@ -129,7 +129,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="374" y="417" width="100" height="50"/>
+        <dc:Bounds x="373.5981308411215" y="417" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_3EBB5A7A-FC69-4458-A856-E243150E3DC2" dmnElementRef="_3EBB5A7A-FC69-4458-A856-E243150E3DC2" isCollapsed="false">
@@ -146,7 +146,7 @@
         <di:waypoint x="479" y="344"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_88478B81-10F0-4BFC-BB32-8ABADFB9D6E3" dmnElementRef="_88478B81-10F0-4BFC-BB32-8ABADFB9D6E3">
-        <di:waypoint x="474" y="442"/>
+        <di:waypoint x="473.5981308411215" y="442"/>
         <di:waypoint x="479" y="344"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
